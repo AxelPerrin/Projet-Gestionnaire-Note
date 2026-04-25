@@ -1,0 +1,20 @@
+[package]
+name = "projet-final-notes"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "projet-final-notes"
+path = "src/main.rs"
+
+[dependencies]
+eframe = "0.31"
+egui = "0.31"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.31", features = ["bundled"] }
+dirs = "5"
+reqwest = { version = "0.12", features = ["json", "blocking"] }
+tokio = { version = "1", features = ["full"] }
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1", features = ["v4", "serde"] }

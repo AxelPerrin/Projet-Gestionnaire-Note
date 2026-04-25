@@ -1,0 +1,19 @@
+# Rust build artifacts
+target/
+
+# Cargo lock (garder pour les binaires)
+# Cargo.lock
+
+# Fichiers de données générés à l'exécution
+notes.json
+notes.db
+
+# Environnement
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
